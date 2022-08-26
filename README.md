@@ -6,23 +6,13 @@ In these days of lockdown that just doesn't seem to end, one of the most affecte
 
 ## Proposed solution:
 
-We will be implementing an app where the person can login/register as a customer:
+- We will be implementing an app where the person can login/register as a customer.
+- This is the login screen, if we want to register we click on the "No account yet? Create one" to open the register user functionality.
+- Now, to log in we click on the "Already a member? Login".
+- This user will now be saved in a local database through which we will check the login credentials.
+- in case the login credentials do not match those in the database,it is as follows.
 
-a
-
-This is the login screen, if we want to register we click on the "No account yet? Create one" to open the register user functionality
-
-b
-
-Now, to log in we click on the "Already a member? Login"
-
-This user will now be saved in a local database through which we will check the login credentials:
-
-c
-
-in case the login credentials do not match those in the database,it is as follows:
-
-d
+![login_page](./resources/login_page.png) ![register_page](./resources/register_page.png)  ![valid_login](./resources/valid_login.png) ![invalid_login](./resources/invalid_login.png)
 
 Now, we have also added a functionality for the Shop keeper to enter his products. These products will then be stored onto a database locally(for now as remote database can be implemented in the future). Using this data base we will show the list of the shops available:
 
