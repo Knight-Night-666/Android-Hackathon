@@ -8,21 +8,21 @@ In these days of lockdown that just doesn't seem to end, one of the most affecte
 
 We will be implementing an app where the person can login/register as a customer:
 
- ![Screenshot 2022-01-07 232852](D:\saman\downloads\Screenshot 2022-01-07 232852.png)
+![login_page](./resources/login_page.png)
 
 This is the login screen, if we want to register we click on the "No account yet? Create one" to open the register user functionality
 
-![Screenshot 2022-01-07 232937](D:\saman\downloads\Screenshot 2022-01-07 232937.png)
+![registered](./resources/registered.png)
 
 Now, to log in we click on the "Already a member? Login"
 
 This user will now be saved in a local database through which we will check the login credentials:
 
- ![](C:\Users\rprak\AppData\Roaming\Typora\typora-user-images\image-20220108001511230.png)
+![valid_login](./resources/valid_login.png)
 
 in case the login credentials do not match those in the database,it is as follows:
 
-![Screenshot 2022-01-07 233026](D:\saman\downloads\Screenshot 2022-01-07 233026.png)
+![invalid](./resources/invalid_login.png)
 
 Now, we have also added a functionality for the Shop keeper to enter his products. These products will then be stored onto a database locally(for now as remote database can be implemented in the future). Using this data base we will show the list of the shops available:
 
